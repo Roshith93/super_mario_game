@@ -1,0 +1,24 @@
+{
+  "name": "super-mario",
+  "version": "1.0.0",
+  "description": "Super mario game purely in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roshith93/super_mario_game.git"
+  },
+  "keywords": [
+    "javascript",
+    "super",
+    "mario"
+  ],
+  "author": "Roshith R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roshith93/super_mario_game/issues"
+  },
+  "homepage": "https://github.com/Roshith93/super_mario_game#readme"
+}
