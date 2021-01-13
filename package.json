@@ -4,6 +4,7 @@
   "description": "Super mario game purely in javascript",
   "main": "index.js",
   "scripts": {
+    "start" : "serve ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Roshith93/super_mario_game/issues"
   },
-  "homepage": "https://github.com/Roshith93/super_mario_game#readme"
+  "homepage": "https://github.com/Roshith93/super_mario_game#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
 }
