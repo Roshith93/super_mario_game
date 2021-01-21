@@ -4,7 +4,7 @@
   "description": "Super mario game purely in javascript",
   "main": "index.js",
   "scripts": {
-    "start" : "serve ./public",
+    "start": "live-server ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Roshith93/super_mario_game#readme",
   "dependencies": {
-    "serve": "^11.3.2"
+    "live-server": "^1.2.1"
   }
 }
