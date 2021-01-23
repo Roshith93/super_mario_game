@@ -7,3 +7,8 @@ export const loadImage = (url) =>
     image.src = url
     image.alt = 'tiles'
   })
+
+  export const loadLevel = (name) => {
+    const res = fetch(`levels/${name}.json`)
+    return res.then(r => r.json())
+  }
